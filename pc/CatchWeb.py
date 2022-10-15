@@ -5,6 +5,7 @@ import urllib.request
 import requests
 import re
 import random
+import _pyinstaller_hooks_contrib
 
 image = "头像"
 if not os.path.exists(image):
